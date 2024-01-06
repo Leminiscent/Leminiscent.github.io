@@ -101,6 +101,17 @@ section {
     height: auto;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .card-body,
 .about-me-img,
 .table {
