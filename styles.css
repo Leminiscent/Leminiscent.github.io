@@ -97,11 +97,8 @@ section {
 }
 
 .img {
+    max-width: 100%;
     height: auto;
-}
-
-.about-me-img {
-    max-width: 256px;
 }
 
 .card-body,
@@ -109,10 +106,6 @@ section {
 .table {
     background-color: var(--light-bg-color);
     box-shadow: var(--box-shadow-light);
-}
-
-.card-img-top {
-    max-width: 100%;
 }
 
 .card-title {
