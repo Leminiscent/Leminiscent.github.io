@@ -53,7 +53,7 @@ const About = () => {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-md mb-8">
                 <div className="aspect-w-1 aspect-h-1 mb-6 mx-auto max-w-[240px]">
                   <img
-                    src="assets/webp/headshot.webp"
+                    src="assets/headshot.webp"
                     alt="Profile avatar"
                     className="rounded-full object-cover shadow-lg"
                     loading="lazy"

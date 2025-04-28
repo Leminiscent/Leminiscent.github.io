@@ -3,12 +3,12 @@ import { Send, Mail } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 // Import icons
-import linkedinIcon from '/assets/ico/linkedin_favicon.ico';
-import githubIcon from '/assets/ico/github_favicon.ico';
-import githubWhiteIcon from '/assets/ico/github_white_favicon.ico';
-import leetcodeIcon from '/assets/ico/leetcode_favicon.ico';
-import hackerrankIcon from '/assets/ico/hackerrank_favicon.ico';
-import codingameIcon from '/assets/ico/codingame_favicon.ico';
+import linkedinIcon from '/assets/linkedin_favicon.ico';
+import githubIcon from '/assets/github_favicon.ico';
+import githubWhiteIcon from '/assets/github_white_favicon.ico';
+import leetcodeIcon from '/assets/leetcode_favicon.ico';
+import hackerrankIcon from '/assets/hackerrank_favicon.ico';
+import codingameIcon from '/assets/codingame_favicon.ico';
 
 const Contact = () => {
   const form = useRef<HTMLFormElement>(null);
