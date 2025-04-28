@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Code, Gamepad2, Layout, Server, Star } from 'lucide-react';
 import SkillBar from './SkillBar';
 
+import headshot from '../assets/headshot.webp';
+
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
 
@@ -53,7 +55,7 @@ const About = () => {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 shadow-md mb-8">
                 <div className="aspect-w-1 aspect-h-1 mb-6 mx-auto max-w-[240px]">
                   <img
-                    src="assets/headshot.webp"
+                    src={headshot}
                     alt="Profile avatar"
                     className="rounded-full object-cover shadow-lg"
                     loading="lazy"

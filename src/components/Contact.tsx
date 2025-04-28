@@ -2,7 +2,6 @@ import { useState, useRef } from 'react';
 import { Send, Mail } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
-// Import icons
 import linkedinIcon from '/assets/linkedin_favicon.ico';
 import githubIcon from '/assets/github_favicon.ico';
 import githubWhiteIcon from '/assets/github_white_favicon.ico';
