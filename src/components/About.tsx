@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Code, Gamepad2, Layout, Server, Star } from 'lucide-react';
 import SkillBar from './SkillBar';
 
-import headshot from '../assets/headshot.webp';
+import headshot from '/assets/headshot.webp';
 
 const About = () => {
   const [activeTab, setActiveTab] = useState('skills');
