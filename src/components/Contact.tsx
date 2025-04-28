@@ -39,10 +39,10 @@ const Contact = () => {
     try {
       if (form.current) {
         const result = await emailjs.sendForm(
-          'service_xztbg9d',
-          'template_zb8yyj3',
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           form.current,
-          'y-FDawJtiOmxwnZne'
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         );
 
         if (result.text === 'OK') {
