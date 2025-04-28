@@ -1,10 +1,10 @@
 import { Project } from '../types';
 
-import rpgImage from '../assets/rpg.webp';
-import ticTacToeImage from '../assets/tic_tac_toe.webp';
-import minesweeperImage from '../assets/minesweeper_screenshot.webp';
-import wordleImage from '../assets/wordle.webp';
-import gameBacklogManagerImage from '../assets/game_backlog_manager.webp';
+import rpgImage from '/assets/rpg.webp';
+import ticTacToeImage from '/assets/tic_tac_toe.webp';
+import minesweeperImage from '/assets/minesweeper_screenshot.webp';
+import wordleImage from '/assets/wordle.webp';
+import gameBacklogManagerImage from '/assets/game_backlog_manager.webp';
 
 export const projectsData: Project[] = [
   {
