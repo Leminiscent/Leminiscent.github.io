@@ -12,6 +12,11 @@ function App() {
 
   // Update active section based on scroll position
   const handleScroll = () => {
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight) {
+      setActiveSection('contact')
+      return
+    }
+
     const sections = ['home', 'about', 'projects', 'contact'];
     const scrollPosition = window.scrollY;
 
